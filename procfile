@@ -1,2 +1,2 @@
-web gunicorn SIGN _TALK.wsgi:apllication --log-file -
+
 heroku ps:scale web=1
